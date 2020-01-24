@@ -1,8 +1,9 @@
 package com.example.fyzwealther.db;
 
+import org.litepal.crud.DataSupport;
 import org.litepal.crud.LitePalSupport;
 
-public class Province extends LitePalSupport {
+public class Province extends DataSupport {
     private int id;
     private String provinceName;//省的名字
     private int provinceCode;//省的代号
